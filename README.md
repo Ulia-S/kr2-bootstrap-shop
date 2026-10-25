@@ -54,3 +54,5 @@
 - `css/custom.css` — дополнительные стили проекта;
 - `images/` — изображения проекта;
 - `README.md` — описание проекта.
+- `vendor/bootstrap/css/bootstrap.min.css` - подключение bootstrap css
+- `vendor/bootstrap/js/bootstrap.bundle.min.js` - подключение bootstrap js
