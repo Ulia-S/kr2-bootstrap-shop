@@ -1,0 +1,56 @@
+/* Общий фон и шрифт */
+body {
+  background: #f5f6fa;
+  color: #273142;
+}
+
+/* Шапка сайта с изображением */
+header {
+  min-height: 280px;
+  padding: 60px 0;
+  color: white;
+  background:
+    linear-gradient(rgba(25, 32, 48, .6), rgba(25, 32, 48, .6)),
+    url("../images/p4.jpg") center / cover no-repeat;
+}
+
+/* Шапка сайта */
+.navbar {
+  box-shadow: 0 2px 8px #00000015;
+}
+
+/* Карточки товаров */
+.card {
+  border: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px #00000015;
+}
+
+/* Картинки внутри карточек */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Кнопки */
+.btn {
+  border-radius: 8px;
+}
+
+/* Нижняя часть сайта */
+footer {
+  padding: 20px 0;
+  margin-top: 40px;
+  background: #212529;
+  color: white;
+}
+
+#backToTop.visible {
+  display: block;
+}

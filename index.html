@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная — MeteoMarket</title>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8">
+                <h1 class="h3 mb-1">MeteoMarket</h1>
+                <p class="mb-0 opacity-75">
+                Интернет-магазин погоды
+                </p>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">MeteoMarket</a>
+
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Переключить навигацию"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Каталог</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="product.html">Товар</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="order.html">Заявка</a>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+            >
+                Дополнительно
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="catalog.html">Все товары</a></li>
+                <li><a class="dropdown-item" href="order.html">Оформить заявку</a></li>
+                <li><a class="dropdown-item" href="index.html#popular">Популярное</a></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <main>
+    <section class="container my-5">
+        <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+            <h2 class="display-5 fw-bold">
+            Погода по вашему заказу
+            </h2>
+            <p class="lead text-muted">
+            Облака, облака или облака -
+            выберито лучшую облачность для уныниния!
+            </p>
+            <a class="btn text-white"
+                style="--bs-btn-bg: #006D77; --bs-btn-hover-bg: #00565E;
+                 --bs-btn-hover-color: white;"
+                href="catalog.html">
+                Выбрать погоду
+            </a>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="p-5 bg-light border rounded text-center">
+            <p class="mb-0 text-muted">
+                <img src="images/p5.jpg"
+                class="card-img-top"
+                alt="'Название товара">
+            </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+    <h2 class="text-center mb-4">Преимущества магазина</h2>
+
+    <div class="row g-4">
+        <div class="col-12 col-md-4">
+        <div class="p-4 border rounded h-100 bg-white">
+            <span class="badge bg-danger mb-3">(В вашем регионе доступна только облачность!)</span>
+            <h3 class="h5">Погода на любой вкус</h3>
+            <p class="mb-0 text-muted">
+            Выбирайте солнечный дни, дождливую атмосферу, снегопады и другие
+            погодные явления под своё настроение.
+            </p>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+        <div class="p-4 border rounded h-100 bg-white">
+            <h3 class="h5">Простой заказ</h3>
+            <p class="mb-0 text-muted">
+            Оформление заказа всего в несколько кликов.
+            </p>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+        <div class="p-4 border rounded h-100 bg-white">
+            <h3 class="h5">Большое разнообразие</h3>
+            <p class="mb-0 text-muted">
+            Планируйте свой идеальный день правильно.
+            </p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Популярные товары</h2>
+        <a class="btn btn-outline-secondary" href="catalog.html">
+        Все товары
+        </a>
+    </div>
+
+    <div class="row g-4">
+        
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+            <img src="images/p1.jpg"
+                class="card-img-top"
+                alt="Товар 1">
+            <div class="card-body">
+            <span class="badge bg-success mb-3">Новинка</span>
+            <h3 class="h5">Слоистые облака</h3>
+            <p class="text-muted">
+                Однородный, бесструктурный слой серого цвета. 
+                Часто они полностью закрывают небо, напоминая густую дымку или туман, только поднятый над землёй.
+            </p>
+            <p class="fw-bold mb-3">1000000 руб.</p>
+            <a class="btn text-white"
+                style="--bs-btn-bg: #006D77; --bs-btn-hover-bg: #00565E;
+                 --bs-btn-hover-color: white;"
+                href="product.html">
+                Подробнее
+            </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+            <img src="images/p2.jpg"
+                class="card-img-top"
+                alt="Товар 2">
+            <div class="card-body">
+            <span class="badge bg-warning text-dark mb-3">Хит</span>
+            <h3 class="h5">Слоисто-дождевые облака</h3>
+            <p class="text-muted">
+            Это обширный, плотный и тёмно-серый слой, который часто полностью закрывает небо. 
+            Из-за непрерывно идущего дождя очертания слоя кажутся размытыми.
+            </p>
+            <p class="fw-bold mb-3">1500000 руб.</p>
+            <a class="btn text-white"
+                style="--bs-btn-bg: #006D77; --bs-btn-hover-bg: #00565E;
+                 --bs-btn-hover-color: white;"
+                href="product.html">
+                Подробнее
+            </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+            <img src="images/p3.jpg"
+                class="card-img-top"
+                alt="Товар 3">
+            <div class="card-body">
+            <span class="badge bg-danger mb-3">Скидка</span>
+            <h3 class="h5">Кучевые облака</h3>
+            <p class="text-muted">
+            Такие облака не образуют сплошного слоя — они всегда отдельные, изолированные. 
+            Считается что это хорошая погода, ведь иногда проглядывает солнце, поэтому самая высокая цена.
+            </p>
+            <p class="fw-bold mb-3">2000000 руб.</p>
+            <a class="btn text-white"
+                style="--bs-btn-bg: #006D77; --bs-btn-hover-bg: #00565E;
+                 --bs-btn-hover-color: white;"
+                href="product.html">
+                Подробнее
+            </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row align-items-center g-3">
+        <div class="col-12 col-md-6">
+            <p class="mb-0">
+            &copy; 2026 MeteoMarket.
+            </p>
+        </div>
+
+        <div class="col-12 col-md-6 text-md-end">
+            <a class="text-white text-decoration-none me-3" href="catalog.html">
+            Каталог
+            </a>
+            <a class="text-white text-decoration-none" href="order.html">
+            Заявка
+            </a>
+        </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <button
+        id="backToTop"
+        class="btn rounded-circle position-fixed bottom-0 end-0 m-4 shadow-sm border d-flex align-items-center justify-content-center"
+        style="display: none; width: 44px; height: 44px; z-index: 1000; --bs-btn-bg: #2A9D8F;
+         --bs-btn-hover-bg: #21867A; --bs-btn-hover-color: white;"
+        aria-label="Наверх"
+        title="Наверх">
+        <span class="fs-4 lh-1">↑</span>
+    </button>
+
+    <script>
+    const button = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+        button.classList.toggle('visible', window.scrollY > 300);
+    });
+
+    button.addEventListener('click', () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        });
+    });
+    </script>
+
+</body>
+</html>

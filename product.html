@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Товар — MeteoMarket</title>
+</head>
+
+<body>
+    <header class="bg-primary text-white py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8">
+                <h1 class="h3 mb-1">MeteoMarket</h1>
+                <p class="mb-0 opacity-75">
+                Интернет-магазин погоды
+                </p>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">MeteoMarket</a>
+
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Переключить навигацию"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Главная</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Каталог</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="product.html">Товар</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="order.html">Заявка</a>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+            >
+                Дополнительно
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="catalog.html">Все товары</a></li>
+                <li><a class="dropdown-item" href="order.html">Оформить заявку</a></li>
+                <li><a class="dropdown-item" href="index.html#popular">Популярное</a></li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <main class="container my-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+        <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Товар 1</li>
+        </ol>
+    </nav>
+
+    <div class="row g-4">
+
+        <div class="col-12 col-lg-6">
+            <div class="card shadow-sm"> 
+                <img src="images/p1.jpg"
+                    class="img-fluid w-100"
+                    alt="Товар 1">
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+        <span class="badge bg-success mb-3">Новинка</span>
+        <h1 class="h2">Слоистые облака</h1>
+        <p class="lead text-muted">
+            О, эти ценители серой вуали,<br>
+            Что небо закрыли, как шторы в печали!<br>
+            Им дождь по карнизам — как музыка сфер,<br>
+            А солнце — ненужный, кричащий пример.<br>
+
+            «Какая гармония!» — шепчут с восторгом,<br>
+            Вдыхая сырую тоску над пригородом.<br>
+            Им мил каждый мокрый, унылый листок,<br>
+            Как будто в тумане — особый намёк.<br>
+
+            Зонт раскрыт, воротник поднят до ушей —<br>
+            Вот счастье их тихое, вот их трофей!<br>
+            Слоистые тучи — их личный уют:<br>
+            «Пусть мир подождёт… пусть дождички льют!»<br>
+        </p>
+
+        <p class="fs-3 fw-bold">1000000 руб.</p>
+
+        <div class="d-flex gap-2 mb-4">
+            <a class="btn btn-lg text-white"
+                style="--bs-btn-bg: #006D77; --bs-btn-hover-bg: #00565E;
+                 --bs-btn-hover-color: white;"
+                href="order.html">
+                Оформить заявку
+            </a>
+            <a class="btn btn-outline-secondary btn-lg" href="catalog.html">
+            Назад в каталог
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <section class="mt-5">
+        <h2 class="h4 mb-3">Характеристики</h2>
+
+        <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+            <tbody>
+            <tr>
+                <th scope="row">Категория</th>
+                <td>Облака</td>
+            </tr>
+            <tr>
+                <th scope="row">Цена</th>
+                <td>1000000 руб.</td>
+            </tr>
+            <tr>
+                <th scope="row">Наличие</th>
+                <td>В наличии</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </section>
+    </main>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
